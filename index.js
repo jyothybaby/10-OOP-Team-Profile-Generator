@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const htmlTemplateFile = require("./src/htmlTemplateFile.js");
-const Manager = require("manager.js");
+const Manager = require("./lib/Manager.js");
 
 inquirer 
     .prompt( [
