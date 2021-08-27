@@ -1,5 +1,5 @@
 {
-  "name": "02-stu_tdd",
+  "name": "10-oop-team-profile-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,5 +10,19 @@
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.9.0"
-  }
+  },
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyothybaby/10-OOP-Team-Profile-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jyothybaby/10-OOP-Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/jyothybaby/10-OOP-Team-Profile-Generator#readme"
 }
