@@ -6,23 +6,18 @@
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^24.9.0"
-  },
-  "dependencies": {
-    "inquirer": "^8.1.2"
-  },
-  "directories": {
-    "lib": "lib"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jyothybaby/10-OOP-Team-Profile-Generator.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/jyothybaby/10-OOP-Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/jyothybaby/10-OOP-Team-Profile-Generator#readme"
+  "homepage": "https://github.com/jyothybaby/10-OOP-Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2",
+    "jest": "^27.1.0"
+  }
 }
