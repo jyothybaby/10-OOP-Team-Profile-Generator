@@ -5,7 +5,7 @@ const Employee = require("../lib/Employee");
 // Writing the test for employee instance
 test("Can instantiate Employee instance", () => {
   const e = new Employee("jyothy", 1, "test@test.com");
-  expect(typeof(e)).toBe("object");
+  expect(typeof (e)).toBe("object");
 });
 // startrd testing for constructor arguments (name,id,email)
 test("Can set name via constructor arguments", () => {
@@ -34,7 +34,7 @@ test("Can get name via getName()", () => {
 
 test("Can get id via getId()", () => {
   const testValue = 100;
-  const e = new Employee("jyothy", testValue,"test@test.com");
+  const e = new Employee("jyothy", testValue, "test@test.com");
   expect(e.getId()).toBe(testValue);
 });
 
