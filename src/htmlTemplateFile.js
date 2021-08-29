@@ -1,3 +1,4 @@
+//Template for html file
 const generateTeam = team => {
 
     // create the manager html

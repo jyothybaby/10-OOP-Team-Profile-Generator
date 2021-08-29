@@ -1,11 +1,11 @@
-
+// 
 const fs = require("fs");
 const inquirer = require("inquirer");
 const htmlTemplateFile = require("./src/htmlTemplateFile.js");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
-const { inherits } = require("util");
+//const { inherits } = require("util");
 
 const teamMembers = [];
 const idArray = [];
@@ -15,7 +15,7 @@ function initfunction() {
     createManager();
 
 }
-
+// function for creating the Manager
 function createManager() {
 
     inquirer
@@ -83,7 +83,7 @@ function createManager() {
         });
 
 }
-
+// Function for creating  the team. This call contain the selection of Engineers and Interns
 function createTeam() {
     inquirer.prompt([
         {
@@ -103,7 +103,7 @@ function createTeam() {
         }
     })
 }
-
+//Functions for Adding engineer
 function addEngineer() {
     inquirer.prompt([
         {
@@ -168,7 +168,7 @@ function addEngineer() {
         createTeam();
     });
 }
-
+//Functions for adding Interns
 function addIntern() {
     inquirer.prompt([
       {
@@ -235,22 +235,12 @@ function addIntern() {
   }
 
 
-
+// This is the default function, Here creating a new "index.html" file with the help of HTML tempalte
 function buildTeam() {
     fs.writeFile("index.html", htmlTemplateFile(teamMembers),(err) => 
     err ? console.log(err) : console.log("Sucessfully created the File!!")
     )
 }
-
-
-//  .then((answers) => {
-//     const readmeContent = htmlTemplateFile(answers);
-//     fs.writeFile("index.html", readmeContent, (err) =>
-//         err ? console.log(err) : console.log("Sucessfully created the File!!")
-
-//     );
-// });
-
-
+// Starter function
 initfunction();
 
