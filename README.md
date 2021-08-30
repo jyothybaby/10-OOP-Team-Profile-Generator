@@ -17,7 +17,8 @@ Works i have done for this project:
 <b>Links for the project:</b><br>
 
 1. GitHub repository URL: https://github.com/jyothybaby/10-OOP-Team-Profile-Generator
-2. Video Location: https://drive.google.com/file/d/1ri-j4UId5mMwOh2tVYMWz16r-ke3tHTO/view?usp=sharing
+2. Video 1 Location: https://drive.google.com/file/d/1ri-j4UId5mMwOh2tVYMWz16r-ke3tHTO/view?usp=sharing
+3. Video 2 location: https://drive.google.com/file/d/1HcIuRRWTQVr-Cf3G1NdNFxsEqK1NpaPH/view?usp=sharing
 
 Screenshots:
 ![screen-1](https://github.com/jyothybaby/10-OOP-Team-Profile-Generator/blob/main/Screenshots/testRun.png)<br>
