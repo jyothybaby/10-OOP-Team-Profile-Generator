@@ -238,7 +238,7 @@ function addIntern() {
 // This is the default function, Here creating a new "index.html" file with the help of HTML tempalte
 function buildTeam() {
   fs.writeFile("index.html", htmlTemplateFile(teamMembers), (err) =>
-    err ? console.log(err) : console.log("Sucessfully created the File!!")
+    err ? console.log(err) : console.log("Successfully created the File!!")
   )
 }
 // Starter function
